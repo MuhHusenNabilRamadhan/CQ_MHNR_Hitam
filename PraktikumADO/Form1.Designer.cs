@@ -96,6 +96,7 @@
             this.label1.Size = new System.Drawing.Size(50, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "HASIL";
+            this.label1.TextChanged += new System.EventHandler(this.textHasil);
             // 
             // btnHitungDosen
             // 

@@ -134,5 +134,10 @@ namespace PraktikumADO
         {
 
         }
+
+        private void textHasil(object sender, EventArgs e)
+        {
+
+        }
     }
 }
