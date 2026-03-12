@@ -114,5 +114,10 @@ namespace PraktikumADO
         {
 
         }
+
+        private void btnHitungDosen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
