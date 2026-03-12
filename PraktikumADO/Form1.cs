@@ -26,7 +26,19 @@ namespace PraktikumADO
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
 
+                MessageBox.Show("Koneksi ke Database berhasil");
+
+                conn.Close();   
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnHitungMhs_Click(object sender, EventArgs e)
