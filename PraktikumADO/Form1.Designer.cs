@@ -85,6 +85,7 @@
             this.txtHasil.Name = "txtHasil";
             this.txtHasil.Size = new System.Drawing.Size(261, 22);
             this.txtHasil.TabIndex = 4;
+            this.txtHasil.TextChanged += new System.EventHandler(this.LabelHasil);
             // 
             // label1
             // 

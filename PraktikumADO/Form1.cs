@@ -129,5 +129,10 @@ namespace PraktikumADO
         {
 
         }
+
+        private void LabelHasil(object sender, EventArgs e)
+        {
+
+        }
     }
 }
