@@ -19,6 +19,10 @@ namespace PraktikumADO
         {
             InitializeComponent();
         }
+        private void Koneksi()
+        {
+            conn = new SqlConnection("Data Source=DESKTOP-0FQM93C\\HUSENNABIL;Initial Catalog=DBAkademiADO;Integrated Security=True");
+        }
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
