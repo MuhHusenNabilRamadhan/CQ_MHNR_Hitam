@@ -32,6 +32,7 @@
             this.btnHitungMhs = new System.Windows.Forms.Button();
             this.btnHitungMk = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.txtHasil = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -74,11 +75,19 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // txtHasil
+            // 
+            this.txtHasil.Location = new System.Drawing.Point(362, 168);
+            this.txtHasil.Name = "txtHasil";
+            this.txtHasil.Size = new System.Drawing.Size(261, 22);
+            this.txtHasil.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnHitungMk);
             this.Controls.Add(this.btnHitungMhs);
@@ -87,6 +96,7 @@
             this.Text = "Form1";
             this.Click += new System.EventHandler(this.btnConnect_Click);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -96,6 +106,7 @@
         private System.Windows.Forms.Button btnHitungMhs;
         private System.Windows.Forms.Button btnHitungMk;
         private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.TextBox txtHasil;
     }
 }
 
